@@ -16,7 +16,13 @@ body {
 }
 .centered {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-40%, -50%);
+    font-family: Verdana, Geneva, Tahoma;
+    font-size: 50px;
+    color: whitesmoke;
+}
+#image1 {
+    border-radius: 3rem
 }
