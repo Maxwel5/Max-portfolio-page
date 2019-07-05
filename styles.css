@@ -1,3 +1,15 @@
+li {
+    display: inline;
+    padding: 20px;
+    font: size 20px;
+}
+nav {
+    text-align: center;
+  font-size: 40px;
+}
+a:hover {
+    color: cyan
+}
 body {
     background-color: dimgrey;
     background-size: cover;
