@@ -5,27 +5,34 @@ li {
 }
 nav {
     text-align: center;
-  font-size: 40px;
+    font-size: 20px;
+    color: white;
 }
 a:hover {
     color: cyan
 }
 body {
-    background-color: dimgrey;
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/24/03/41/milky-way-2675323_960_720.jpg);
     background-size: cover;
 }
 .centered {
-    position: absolute;
-    top: 40%;
+    float: right;
     left: 50%;
-    transform: translate(-40%, -50%);
+    /* transform: translate(-30%, -20%, -30, -20); */
     font-family: Verdana, Geneva, Tahoma;
-    font-size: 50px;
+    font-size: 70px;
     color: whitesmoke;
 }
 #image1 {
     border-radius: 3rem
 }
 .find{
-    text-align: center;
+    text-align: left;
+    color: white;
+}
+.centered p, p1 {
+    font-family: 'Great Vibes', cursive;
+    padding-top: 100px;
+    /* padding-right: 50px; */
+    /* position: relative; */;
 }
