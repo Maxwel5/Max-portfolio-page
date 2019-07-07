@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 li {
     display: inline;
     padding: 20px;
@@ -6,19 +9,30 @@ li {
 nav {
     text-align: center;
     font-size: 20px;
-    color: white;
+    /* color: white; */
 }
+.bar{
+    position: sticky;
+    top: 0; 
+}
+a{
+    color: #ff802b;
+}
+/* ul li {
+    color: white;
+} */
 a:hover {
     color: cyan
 }
 body {
     background-image: url(https://cdn.pixabay.com/photo/2017/08/24/03/41/milky-way-2675323_960_720.jpg);
     background-size: cover;
+    color: aliceblue;
 }
 .centered {
     float: right;
     left: 50%;
-    /* transform: translate(-30%, -20%, -30, -20); */
+    transform: translate(-20px, 30px);
     font-family: Verdana, Geneva, Tahoma;
     font-size: 70px;
     color: whitesmoke;
@@ -35,4 +49,19 @@ body {
     padding-top: 100px;
     /* padding-right: 50px; */
     /* position: relative; */;
+}
+#projects{
+    height: 500px;
+    background-color: #66000000;
+}
+#projects > li > a{
+    font-size: 25px;
+}
+#aboutme{
+    height: 500px;
+    background-color: #66000000;
+}
+#photos{
+    height: 500px;
+    background-color:#66000000;
 }
